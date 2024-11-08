@@ -300,7 +300,7 @@ dt {
  display: none;
 }
 .faq-section > input[type=checkbox]:not(:checked) ~ .faq-question:before {
- content: "ï¼‹";
+ content: "+";
 }
 .faq-section > input[type=checkbox]:not(:checked) ~ .faq-answer {
  max-height: 0;
@@ -310,7 +310,7 @@ dt {
  transition: max-height 1s ease 0s;
 }
 .faq-section > input[type=checkbox]:checked ~ .faq-question:before {
- content: "ï¼";
+ content: "-";
 }
 .faq-section > input[type=checkbox]:checked ~ .faq-answer {
  max-height: 1000px;
